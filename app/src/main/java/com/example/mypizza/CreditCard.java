@@ -19,13 +19,17 @@ public class CreditCard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_form);
 
+        final TextView price = (TextView) findViewById(R.id.payment_amount);
+        TextView pricetext = (TextView) findViewById(R.id.payment_amount_holder);
+        pricetext.setText("");
+        price.setText("");
+
 
         CardForm cardForm =(CardForm) findViewById(R.id.cardform);
 
         TextView textDes=(TextView)findViewById(R.id.payment_amount);
         Button btnpay=(Button)findViewById(R.id.btn_pay);
-        textDes.setText("Rs.1250");
-        btnpay.setText(String.format("Payer Name Is:",textDes.getText()));
+        btnpay.setText(String.format("Pay Now!",textDes.getText()));
 
 
         cardForm.setPayBtnClickListner(new OnPayBtnClickListner() {

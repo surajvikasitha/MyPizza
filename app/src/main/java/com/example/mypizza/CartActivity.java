@@ -58,8 +58,19 @@ public class CartActivity extends AppCompatActivity implements CartAdapter.OnIte
 
         loadcart();
 
+        ImageView pay=(ImageView)findViewById(R.id.pay);
+
+        pay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(CartActivity.this,CreditCard.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
+
 
     private void loadcart() {
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
@@ -133,7 +144,7 @@ public class CartActivity extends AppCompatActivity implements CartAdapter.OnIte
 
         Volley.newRequestQueue(this).add(stringRequest);
 
-        System.out.println("2222222222222222222222222222222222222222222222222"+URL1);
+
 
         finish();
         startActivity(getIntent());

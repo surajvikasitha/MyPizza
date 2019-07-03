@@ -13,4 +13,13 @@
         android:layout_centerInParent="true"
         android:src="@drawable/pizzalogo"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+
+        android:text="© 2019 Suraj Vikasitha All Rights Reserved" />
+
 </RelativeLayout>

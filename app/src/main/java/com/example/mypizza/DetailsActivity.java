@@ -87,10 +87,7 @@ public class DetailsActivity extends AppCompatActivity {
         Buy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Toast.makeText(DetailsActivity.this, "Your order is Added to the Cart.", Toast.LENGTH_SHORT).show();
-//                Intent intent1 = new Intent(DetailsActivity.this, MainActivity.class);
-//                finish();
-//                startActivity(intent1);
+
                 addcart();
                 Intent intent1 = new Intent(DetailsActivity.this, CartActivity.class);
                 finish();
