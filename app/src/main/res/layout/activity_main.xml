@@ -13,7 +13,7 @@
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#0F52BA"
+        android:background="#870FBA"
         android:orientation="horizontal">
 
         <TextView
@@ -22,11 +22,11 @@
             android:layout_marginLeft="27dp"
             android:layout_marginRight="103dp"
             android:gravity="center_vertical"
-            android:text="My Pizza"
+            android:text="Pizza Loop"
             android:textColor="#F5F0F0"
             android:textSize="27dp"
             android:textStyle="bold"
-            app:fontFamily="sans-serif-smallcaps" />
+            app:fontFamily="sans-serif-thin" />
 
         <RelativeLayout
             android:id="@+id/gotocart"

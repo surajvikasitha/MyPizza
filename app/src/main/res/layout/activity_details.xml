@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/scrollview"
-    android:background="@drawable/lockwallpaper"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
@@ -51,7 +51,7 @@
                 android:textStyle="bold"
                 android:layout_height="wrap_content"
                 android:text="Pizza name"
-                android:textColor="#03A9F4"
+                android:textColor="#03F423"
                 android:layout_marginBottom="10dp"/>
             <TextView
                 android:id="@+id/price"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:text="Pizza Price"
                 android:layout_alignBottom="@+id/image"
-                android:textColor="#03A9F4"
+                android:textColor="#27BD2D"
                 android:textSize="20sp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="10dp"/>
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_below="@+id/top"
-            android:background="#000836">
+            android:background="#348D1A">
 
             <TextView
                 android:id="@+id/allprice"
@@ -96,10 +96,10 @@
                 android:layout_marginTop="7dp"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:background="#000836"
+                android:background="#237E27"
                 android:padding="3dp"
                 android:text="Rs.4200"
-                android:textColor="#fff"
+                android:textColor="#FFC826"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -113,7 +113,7 @@
                 android:background="#FFFFFF"
                 android:clickable="true"
                 android:text="Add To Cart"
-                android:textColor="#0E0D0D" />
+                android:textColor="#000000" />
 
         </LinearLayout>
 

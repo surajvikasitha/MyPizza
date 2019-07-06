@@ -63,7 +63,8 @@ public class CartActivity extends AppCompatActivity implements CartAdapter.OnIte
         pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(CartActivity.this,CreditCard.class);
+                Toast.makeText(getApplicationContext(),"Order placed Successfully",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(CartActivity.this,MainActivity.class);
                 startActivity(intent);
             }
         });

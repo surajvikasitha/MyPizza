@@ -35,9 +35,6 @@
                 android:textStyle="bold" />
 
 
-
-
-
             <TextView
                 android:id="@+id/price"
                 android:layout_width="match_parent"

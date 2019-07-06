@@ -14,9 +14,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".CreditCard">
-        </activity>
-        <activity android:name=".SplashScreen">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,8 +22,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".Login" />
-        <activity android:name=".MainActivity" />
+
         <activity android:name=".DetailsActivity" />
         <activity android:name=".CartActivity" />
     </application>

@@ -4,26 +4,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cartback">
+    android:background="#FFD700">
     <LinearLayout
 
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#0F52BA"
+        android:background="#870FBA"
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="212dp"
             android:layout_height="match_parent"
+            android:layout_alignTop="@+id/menu"
             android:layout_marginLeft="27dp"
             android:layout_marginRight="103dp"
             android:gravity="center_vertical"
-            android:text="My Pizza"
+            android:text="Pizza Loop"
             android:textColor="#F5F0F0"
             android:textSize="27dp"
             android:textStyle="bold"
-            app:fontFamily="sans-serif-smallcaps" />
+            app:fontFamily="sans-serif-thin" />
 
         <RelativeLayout
             android:id="@+id/gotocart"
@@ -38,7 +39,7 @@
                 android:layout_width="95dp"
                 android:layout_height="48dp"
                 android:layout_gravity="right"
-                android:src="@drawable/pay" />
+                android:src="@drawable/paybu" />
         </RelativeLayout>
     </LinearLayout>
         <android.support.v7.widget.RecyclerView
@@ -50,15 +51,5 @@
         </android.support.v7.widget.RecyclerView>
 
 
-
-
-    <!--<LinearLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:gravity="right"-->
-        <!--android:layout_alignBottom="@+id/recyclerview"-->
-        <!--android:layout_margin="20dp">-->
-
-    <!--</LinearLayout>-->
 
 </RelativeLayout>
